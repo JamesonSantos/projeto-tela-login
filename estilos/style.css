@@ -19,7 +19,7 @@
 }
 
 body, html {
-    background-color: var(--cor2);
+    background-color: var(--cor1);
     height: 100vh;
     width: 100vw;
 }
