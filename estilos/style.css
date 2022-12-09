@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
-/*
+/*------------------
     Paleta de cores
     Verde: #49a09d
     Lilás: #5f2c82
-*/
+--------------------*/
 
 :root {
     --cor1: #49a09d;
@@ -58,4 +58,13 @@ section#login > div#imagem {
 section#login div#formulario {
     display: block;
     padding: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
 }
