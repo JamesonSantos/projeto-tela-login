@@ -34,7 +34,6 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden; /*Tudo que estiver fora da borda ficará escondido. Imagem fica com bordas arredondadas.*/
 
     background-color: white;
@@ -43,6 +42,7 @@ section#login {
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
 
+    transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
@@ -63,23 +63,50 @@ section#login div#formulario {
 div#formulario > h1 {
     text-align: center;
     margin-bottom: 10px;
+    color: var(--cor2);
 }
 
 div#formulario > p {
     font-size: 0.8em;
+    text-align: center;
+    color: gray;
 }
 
 form > div.campo {
     background-color: var(--cor2);
+    border: 2px solid var(--cor2);
     display: block;
     width: 100%;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 4px 0px;
 }
 
 div.campo > label {
     display: none;
+}
+
+div.campo > span {
+    color: white;
+    /*background-color: black;*/
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    background-color: #8febe8;
+    font-size: 1em;
+    width: calc(100% - 44.8px);
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-12px);
+}
+
+div.campo > input:focus-within {
+    background-color: white;
 }
 
 form > a > span#seta {
