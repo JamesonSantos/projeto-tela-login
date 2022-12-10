@@ -119,6 +119,7 @@ form > a > span#seta {
     color: white;
     cursor: pointer;
     padding-left: 45%;
+    padding-top: 3px;
     margin-top: 4px;
 }
 
