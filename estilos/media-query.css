@@ -13,7 +13,7 @@
 
     section#login {
         width: 80vw;
-        height: 280PX;
+        height: 300PX;
     }
 
     section#login > div#imagem {
@@ -26,6 +26,22 @@
         float: right;
         width: 70%;
     } 
+
+    form > p#cadastro {
+        font-size: 1em;
+        text-align: center;
+        color: gray;
+        margin-top: 5px;
+    }
+    
+    form > p > a#cadastro {
+        color: gray;
+        text-decoration: none;
+    }
+    
+    form > p > a#cadastro:hover {
+        color: var(--cor2);
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -58,5 +74,21 @@
     div#formulario > p {
         font-size: 1em;
         margin: 20px 0px;
+    }
+
+    form > p#cadastro {
+        font-size: 1em;
+        text-align: center;
+        color: gray;
+        margin-top: 5px;
+    }
+    
+    form > p > a#cadastro {
+        color: gray;
+        text-decoration: none;
+    }
+    
+    form > p > a#cadastro:hover {
+        color: var(--cor2);
     }
 }
