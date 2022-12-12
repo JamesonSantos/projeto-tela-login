@@ -109,6 +109,16 @@ div.campo > input:focus-within {
     background-color: white;
 }
 
+div.campo > input::placeholder{
+    transition: .3s;
+}
+
+div.campo > input:focus::placeholder {
+    font-size: 0.8em;
+    color: var(--cor2);
+    transform: translateY(-10px);
+}
+
 form > a > span#seta {
     font-size: 2em;
     width: 100%;
